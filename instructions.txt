@@ -1,0 +1,5 @@
+Instructions:
+
+Place the smartEEG package anywhere on your computer and
+add it to your visual studio 2017. This contains 
+some EEG data.
