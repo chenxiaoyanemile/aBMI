@@ -43,9 +43,9 @@ XTest= cellfun(@(x) x',XTest,'UniformOutput',false);
 %定义layer
 layers = [ ...
     sequenceInputLayer(1)
-    bilstmLayer(250)
+    lstmLayer(250)
     dropoutLayer
-    bilstmLayer(250,'OutputMode','last')
+    lstmLayer(250,'OutputMode','last')
     fullyConnectedLayer(2)
     softmaxLayer
     classificationLayer
